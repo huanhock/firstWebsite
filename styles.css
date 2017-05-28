@@ -1,8 +1,29 @@
-img {
-    display: inline;
+body {
+    background-color: cornsilk;
+    text-align: center;
+}
+
+.img-face {
     width: 300px;
 }
 
-.vitals {
-    display: table;
+.ul-skills {
+    list-style: none;
+}
+
+ /* One way to center lists */
+.ul-hello {
+    text-align: center;
+}
+.ul-hello > ul {
+    display: inline-block;
+}
+
+/*The other way, but doesn't center list by bullets*/
+.ol-123 {
+    list-style-position: inside;
+    margin: 0 auto;
+    position: relative;
+    text-align: left;
+    width: 180px;
 }
