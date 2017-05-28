@@ -1,0 +1,8 @@
+img {
+    display: inline;
+    width: 300px;
+}
+
+.vitals {
+    display: table;
+}
